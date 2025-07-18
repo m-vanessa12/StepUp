@@ -3,7 +3,8 @@
     padding: 0;
 }
 .menu-bar{
-    background-color: #F4F8FF;
+    background-color: #cfddfa;
+    /* position: fixed; */
     width: 80%;
     height: 80px;
     display: flex;
@@ -11,12 +12,12 @@
     margin-top: 30px;
     margin-left: 7%;
     border-radius: 50px;
-    box-shadow: rgba(110, 138, 216, 0.1) 0px 4px 12px;
+    box-shadow: 0 4px 10px rgba(0, 93, 255, 0.1);
 }
 
 .title{
     margin-top: 20px;
-    margin-left: 12%;
+    margin-left: 5%;
     padding: 10px;
     height: 30px;
     /* background-color: aqua; */
@@ -36,6 +37,7 @@
     margin: 20px;
     padding: 10px;
     text-align: center;
+    margin-left: 15%;
 }
 
 /* .links ul{

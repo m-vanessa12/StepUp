@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 
-const Heading = () => {
+const MenuBar = () => {
   return (
     <div className='menu-bar'>
       <div className='title'>
@@ -25,4 +25,4 @@ const Heading = () => {
   )
 }
 
-export default Heading
+export default MenuBar
