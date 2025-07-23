@@ -1,13 +1,99 @@
 .footer{
-    background-color: #0061F5;
-    height: 50px;
+    background-color: #F2F7FE;
+    height: 250px;
     width: 100%;
-    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 50px;
+}
+
+.footer-message{
+    width: 30%;
+    height: 200px;
+    /* background-color: aquamarine; */
+    margin-left: 30px;
+    margin-top: 20px;
     padding: 10px;
 }
 
-.footer span{
-    color: #fff;
+.footer-message-title{
+    /* background-color: #f6f6f6; */
+    padding: 5px;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.footer-message-her{
+    color: #0061F5;
+}
+
+.footer-message-message{
+    line-height: 25px;
+    padding: 10px;
+}
+
+
+.quick-links{
+    width: 15%;
+    height: 200px;
+    /* background-color: blueviolet; */
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.quick-links-title{
+    background-color: #f6f6f6;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.quick-links-links{
+    /* background-color: #0061F5; */
+    padding: 10px;
+
+}
+.quick-links-links li{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.quick-links-links a{
+    color: #000;
+    text-decoration: none;
+
+}
+
+.quick-links-links a:hover{
+    color: #0061F5;
+    text-decoration: underline;
+}
+
+
+
+.poweredby{
+    width: 25%;
+    height: 200px;
+    /* background-color: burlywood; */
+    margin-top: 20px;
+
+}
+
+.poweredby-title{
+    /* background-color: #f6f6f6; */
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;  
+}
+
+.poweredby-message{
+    line-height: 25px;
+    padding: 10px;
 }

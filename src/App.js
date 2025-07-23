@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import MenuBar from './Heading/header';
 import HeroSection from './Hero-Section/hero';
 import AboutUs from './About/about';
+import Career from './Career/career';
 import Contact from './Contact/contact';
 import Footer from './Footer/Footer';
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <MenuBar />
           <HeroSection />
           <AboutUs />
+          <Career />
           <Contact />
           < Footer/>
         </>
