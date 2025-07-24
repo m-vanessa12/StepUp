@@ -1,21 +1,23 @@
 .footer{
     background-color: #F2F7FE;
-    height: 250px;
+    height: auto;
     width: 100%;
-    padding: 10px;
     display: flex;
     flex-direction: row;
-    padding: 20px;
+    /* padding: 20px; */
     gap: 50px;
+    padding-bottom: 20px;
+
 }
 
 .footer-message{
     width: 30%;
-    height: 200px;
+    height: auto;
     /* background-color: aquamarine; */
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 10px;
+    padding-bottom: 20px;
 }
 
 .footer-message-title{
@@ -38,10 +40,11 @@
 
 .quick-links{
     width: 15%;
-    height: 200px;
+    height: auto;
     /* background-color: blueviolet; */
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 40px;
+    padding-bottom: 20px;
 }
 
 .quick-links-title{
@@ -79,9 +82,10 @@
 
 .poweredby{
     width: 25%;
-    height: 200px;
+    height: auto;
     /* background-color: burlywood; */
-    margin-top: 20px;
+    margin-top: 40px;
+    padding-bottom: 20px;
 
 }
 
@@ -97,3 +101,4 @@
     line-height: 25px;
     padding: 10px;
 }
+

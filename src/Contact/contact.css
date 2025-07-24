@@ -1,16 +1,18 @@
 .contact{
-    /* background-color: aqua; */
+    background-color: #fff;
     width: 100%;
     height: auto;
-    padding: 20px;
+    /* padding: 20px; */
     display: flex;
     flex-direction: row;
+    padding-bottom: 30PX;
 }
 
 .contact-info{
     height: auto;
     width: 40%;
-    /* background-color: blueviolet;    */
+    margin-left: 20px;
+    margin-top: 40px;
 }
 
 .contact-title{
@@ -68,7 +70,7 @@
 
 
 .contact-form{
-    margin-top: 10px;
+    margin-top: 40px;
     margin-left: 50px;
     height:auto;
     padding-bottom: 15px;
