@@ -53,3 +53,34 @@
     border: none;
     border-radius: 10px;
 }
+
+/* MOBILE RESPONSIVENESS */
+
+@media(max-width: 760px){
+
+    .about{
+      width: 100%; 
+    }
+
+    .about-title{
+        margin-left: 8%;
+    }
+
+    .about-subtitle{
+        margin-left: 8%;
+        width: 80%;
+        font-size: 28px;
+    }
+
+    .about-content{
+        margin-left: 8%;
+        width: 85%;
+    }
+
+    .about-button{
+        width: 40%;
+        margin-left: 10%;
+    }
+
+
+}

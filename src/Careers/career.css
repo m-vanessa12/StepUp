@@ -92,3 +92,38 @@
   
 }
 
+@media(max-width: 768px){
+
+  .career{
+    /* background-color: #c20f0f; */
+    height: auto;
+    padding-bottom: 20px;
+    flex-direction: column;
+  }
+
+  .career-image{
+    width: 80%;
+    height: 300px;
+  }
+
+  .career-info{
+    /* background-color: aqua; */
+    width: 90%;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .career-subtitle{
+    /* background-color: bisque; */
+    width: 100%;
+    font-size: 30px;
+  }
+  .career-button{
+    width: 43%;
+  }
+
+
+
+
+}
+

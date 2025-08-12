@@ -33,7 +33,10 @@ function Footer() {
           <span>Powered By</span>
         </div>
         <div className='poweredby-message'>
-          <span>Vanessa  M, project owner, designer and developer</span>
+          <span>Vanessa  M, project owner and Manager</span>
+        </div>
+        <div className='poweredby-message'>
+          <span>CREADE RW, project developer</span>
         </div>
       </div>
       

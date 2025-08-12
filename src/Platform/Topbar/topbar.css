@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topbar{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 9999;
+}
+
+.topbar-title{
+    width: 13%;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.topbar-stepup{
+    
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.topbar-her{
+    font-size: 22px;
+    font-weight: 600;
+    color: #0061F5;
+
+}
+
+.topbar-tools{       
+    width: 50%;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 32%;
+    /* background-color: #aeb0b3; */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.topbar-search{
+    background-color: #fff;
+    width: 65%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;  
+    border: 1px solid #a8a8a8;
+    border-radius: 20px;
+}
+
+.search-input{
+    width: 80%;
+    height: 47px;
+    margin-top: 5px;
+    margin-left: 10px;
+
+}
+.search-input input{
+    width: 100%;
+    height: 47px;
+    border: none;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.search-icon{
+    width: 15%;
+    height: 47px;
+    color: #636363;
+    background-color: #fff;
+    margin-top: 5px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.topbar-add{
+    width: 7%;
+    height: 47px;
+    background-color: #0061F5;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.topbar-notification{
+    width: 7%;
+    height: 45px;
+    background-color: #eff0f2;
+    color: #000;
+    border-radius: 5px;
+    border: 1px solid #414141;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.topbar-profile{
+    width: 8%;
+    height: 55px;
+    background-color: #0061F5;
+    color: #000;
+    border-radius: 50%;
+    border: 1px solid #414141;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 2px;
+    margin-left: 20px;
+    border: none;
+    overflow: hidden;
+}
+
+.topbar-profile img{
+    width :100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+

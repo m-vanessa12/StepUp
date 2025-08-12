@@ -1,5 +1,7 @@
 import React from 'react'
 import './contact.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 
 function Contact() {
   return (
@@ -22,7 +24,7 @@ function Contact() {
                 </div>
 
                 <div className='contact-email'>
-                    <span>Ic:</span>
+                    <FontAwesomeIcon icon=''/>
                     <span>Email:</span>
                     <span>steupher@gmail.com</span>
                 </div>
@@ -56,7 +58,15 @@ function Contact() {
                 <textarea placeholder='Send us a message...'></textarea>
             </div>
             <div className='input-button'>
-              <input type='submit' value='Send'/>            
+
+              <div className='input-button-send'> 
+                <input type='submit' value='Send'/>  
+              </div> 
+              <div className='input-button-icon'>
+                 <FontAwesomeIcon icon={faPaperPlane}/>
+              </div>
+              
+
             </div>
         </div>
       

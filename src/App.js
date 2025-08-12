@@ -6,6 +6,11 @@ import Feature from './Feature/feature';
 import Career from './Careers/career';
 import Contact from './Contact/contact';
 import Footer from './Footer/Footer';
+// import Sidebar from './Platform/Sidebar/sidebar';
+// import Topbar from './Platform/Topbar/topbar.js';
+import Home from './Platform/Home/home.js';
+import './icons.js';
+
 
 function App() {
   return (
@@ -24,6 +29,9 @@ function App() {
         </>
         }
         />
+        {/* Route to the platform pages*/}
+        <Route path='/get-started' element={<Home />} />
+   
       </Routes>
     </Router>
   );

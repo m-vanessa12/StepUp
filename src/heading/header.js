@@ -1,7 +1,14 @@
 import React from 'react'
 import './header.css'
+import { useNavigate } from 'react-router-dom'
 
 const MenuBar = () => {
+  const navigate = useNavigate();
+  const handleGetStarted= () =>{
+    navigate('/get-started');
+  }
+
+
   return (
     <div className='menu-bar'>
       <div className='title'>
@@ -15,7 +22,7 @@ const MenuBar = () => {
             <li><a href='#Career'>Career</a></li>
             <li><a href='#FAQs'>FAQs</a></li>
             <li><a href='#Contact'>Contact</a></li>
-            <li><a href='#Login' className='loginn'>Get Started</a></li>
+            <li><a href='#Login' className='loginn' onClick={handleGetStarted}>Get Started</a></li>
 
           </ul>
           

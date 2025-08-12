@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(245, 245, 245);
+    width: 16%;
+    height: 725px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: 2px solid #000;
+    
+}
+
+.sidebar-first{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    height: 180px;
+    border-bottom: 1px solid #8e8e8e;
+}
+.sidebar-second{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    height: 180px;
+}
+.sidebar-third{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    padding-bottom: 10px;
+    height: 180px;
+}
+
+
+
+.sidebar-details{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.sidebar-details:hover{
+    background-color: #0061F5;
+    color: #fff;
+}
+
+.icon-icon{
+    width: 20%;
+    height: 30px;
+    /* background-color: red; */
+    margin-left: 35px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.icon-Name{
+    width: 55%;
+    height: 30px;
+    /* background-color: green; */
+    margin-top: 20px;
+}
+
+.icon-Name span{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+    /* color: #000; */
+}
