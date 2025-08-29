@@ -1,0 +1,223 @@
+.account{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    background-color: #ebeff6;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.account-info{
+    height: 100vh;
+    width: 45%;
+    background-color: #0061F5;
+    opacity: 0.8;
+    background-image: url('https://images.unsplash.com/photo-1553028826-f4804a6dba3b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
+
+.account-title{
+    width: 60%;
+    height: 50px;
+    margin-top: 50%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+.account-title span{
+    color:#fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+.account-message{
+    width: 80%;
+    height: auto;
+    padding-bottom: 5px;
+    margin-left: 8%;
+    text-align: center;
+}
+
+.account-message span{
+    color:#fff;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.account-read{
+    width: 30%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.account-read a{
+    color:#fff;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.account-read:hover{
+    background-color: #0061F5;
+    color: #fff;
+    border: none;
+}
+
+/* -----CREATE FORM FORM ------*/
+
+
+.createForm{
+    height: 100vh;
+    width: 55%;
+    /* border: 1px #ccc solid; */
+
+}
+
+.google-SignIn{
+    width: 80%;
+    height: 400px;
+    /* background-color: #0061F5; */
+    margin-top: 5%;
+    margin-left: 6%;
+    /* border: 2px #0061F5 solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+.createAccount-title{
+    width: 60%;
+    height: auto;
+    padding: 5px;
+    /* background-color: #ccc; */
+}
+.createAccount-title span{
+    text-align: center;
+    font-size:30px;
+    font-weight: bold;
+}
+
+.createAccount-subtitle{
+    margin-top: 10px;
+}
+.createAccount-subtitle span{
+    color: #545454;
+    font-size: 22px;
+}
+
+
+
+/* ----SIGN MANUALLY---- */
+
+.account-form{
+    width: 80%;
+    height: 400px;
+    /* background-color: #0061F5; */
+    margin-top: 20%;
+    margin-left: 10%;
+    /* border: 2px #0061F5 solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.personal-info{
+    width: 70%;
+    height: 50px;
+    background-color: #eff6ff;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+}
+
+.detail-icon{
+    width: 60px;
+    height: 50px;
+    color: #000;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.detail-name{
+    width: 85%;
+    height: 50px;
+}
+.Sign-In{
+    width: 85%;
+    height: 50px;
+    background-color: #0061F5;
+}
+.detail-name input{
+    width: 95%;
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+    color: #000;
+    border: none;
+    background-color: #eff6ff;
+    display: flex;
+    justify-content: center;
+}
+
+.Sign-In{
+    width: 72%;
+    height: 50px;
+    background-color: #0061F5;
+    border-radius: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.signIn-button input{
+    width: 98%;
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    display: flex;
+    justify-content: center;
+     border-radius: 25px;
+     background-color: #0061F5;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.have-account{
+    width: 72%;
+    height: auto;
+    /* background-color: #ded8d8; */
+    margin-top: 10px;
+}
+
+.have-account span{
+    font-size: 18px;
+}
+
+.login{
+    color: #0061F5;
+    font-weight: 600;
+    margin-left: 5px;
+}

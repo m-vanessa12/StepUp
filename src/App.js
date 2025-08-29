@@ -9,6 +9,8 @@ import Footer from './Footer/Footer';
 // import Sidebar from './Platform/Sidebar/sidebar';
 // import Topbar from './Platform/Topbar/topbar.js';
 import Home from './Platform/Home/home.js';
+// import SignUp from './Platform/Account/SignUp.js';
+import CreatePost from './Platform/Discusion/CreatePost.js';
 import './icons.js';
 
 
@@ -31,6 +33,8 @@ function App() {
         />
         {/* Route to the platform pages*/}
         <Route path='/get-started' element={<Home />} />
+        {/* <Route path='/get-started' element={<SignUp />} /> */}
+        <Route path='/create-discussion' element={<CreatePost />} />
    
       </Routes>
     </Router>

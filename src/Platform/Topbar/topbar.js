@@ -1,10 +1,19 @@
 import React from 'react'
 import './topbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import personProfile from '../../img/vanessa.jpg'
+import personProfile from '../../img/vanessa.jpg';
+import {useNavigate} from 'react-router-dom'
 
 
-function Topbar() {
+const Topbar = () => {
+
+    const navigate = useNavigate();
+    const handleGetStarted=() =>{
+        navigate('/create-discussion');
+
+    }
+
+
   return (
     <div className='topbar'>
         <div className='topbar-title'>
@@ -23,7 +32,7 @@ function Topbar() {
                 </div>
 
             </div>
-            <div className='topbar-add'>
+            <div className='topbar-add' onClick={handleGetStarted}>
                 <FontAwesomeIcon icon='add'/>
             </div>
             <div className='topbar-notification'>

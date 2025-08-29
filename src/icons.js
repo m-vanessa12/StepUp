@@ -13,8 +13,11 @@ import {
     faAdd,
     faSearch,
     faArrowRight,
-    faSignOut
+    faSignOut,
+    faUser,
+    faLock,
 } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faHome,faPerson,faPeopleGroup,faComment,faFile,faRightFromBracket,faPaperPlane,faEnvelope,faPhone,faBell,faAdd, faSearch, faArrowRight, faSignOut );
+library.add(faHome,faPerson,faPeopleGroup,faComment,faFile,faRightFromBracket,faPaperPlane,
+    faEnvelope,faPhone,faBell,faAdd, faSearch, faArrowRight, faSignOut,faUser, faLock );
 

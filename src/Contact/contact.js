@@ -17,17 +17,28 @@ function Contact() {
                 <span>For questions that wasn’t mention in our FQAs our please don't hesitate to reach out</span>
             </div>
             <div className='contact-address'>
-                <div className='contact-email'>
-                    <span>Ic:</span>
-                    <span>Email:</span>
-                    <span>steupher@gmail.com</span>
-                </div>
 
                 <div className='contact-email'>
-                    <FontAwesomeIcon icon=''/>
-                    <span>Email:</span>
-                    <span>steupher@gmail.com</span>
+                    <div className='contact-icon'>
+                        <FontAwesomeIcon icon='envelope'/>
+                    </div>
+                    <div className='contact-contact'>
+                        <span className='contact-type'>Email:</span>
+                        <span className='contact-detail'>mukavanessa8@gmail.com</span>
+                    </div>
+
                 </div>
+                <div className='contact-email'>
+                    <div className='contact-icon'>
+                        <FontAwesomeIcon icon='phone'/>
+                    </div>
+                    <div className='contact-contact'>
+                        <span className='contact-type'>Phone:</span>
+                        <span className='contact-detail'>(+250)780-705-984</span>
+                    </div>
+
+                </div>
+
             </div>
 
         </div>

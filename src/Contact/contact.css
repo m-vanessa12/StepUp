@@ -58,10 +58,48 @@
 }
 
 .contact-email{
-    background-color: blue;
+    background-color: #fff;
     width: 80%;
-    /* height: 100px; */
+    height: 130px;
+    display: flex;
+    flex-direction: row;
 }
+
+.contact-icon{
+    width: 50px;
+    height: auto;
+    padding: 5px;
+    background-color: #fff;
+    color: #0061F5;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact-contact{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-type{
+    padding: 5px;
+    font-size: 18px;
+    color: #4f4f4f;
+    
+
+}
+
+.contact-detail{
+    padding: 5px;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+
 
 
 
